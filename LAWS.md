@@ -1,7 +1,7 @@
 # LAWS
 
 **Ruleset version: R1 (die-os) · in force from 2026-08-25 · append-only**
-Extracted from die-validation ruleset R6. Domain-bound measurement laws (its L2–L8, L20, L22)
+Extracted from its origin project's ruleset R6. Domain-bound measurement laws (its L2–L8, L20, L22)
 stayed behind with their instrument; what follows is the conduct layer, which travels.
 
 **Why this file exists.** The same discipline as a measurement log, applied to conduct instead of
@@ -241,4 +241,4 @@ own. A project in a fast-moving field cannot run on stale recollection.*
 
 | version | date | change |
 |---|---|---|
-| R1 | 2026-08-25 | Extracted from die-validation R6: the domain-agnostic conduct layer. Measurement laws L2–L8, L20, L22 stayed with their instrument. |
+| R1 | 2026-08-25 | Extracted from the origin project's R6: the domain-agnostic conduct layer. Measurement laws L2–L8, L20, L22 stayed with their instrument. |

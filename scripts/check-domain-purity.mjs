@@ -12,8 +12,9 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const SELF = new Set(["scripts/check-domain-purity.mjs", "domain-nouns.txt"]);
-const nouns = (fs.existsSync("domain-nouns.txt") ? fs.readFileSync("domain-nouns.txt", "utf8") : "")
+const SELF = new Set(["scripts/check-domain-purity.mjs", "domain-nouns.txt", "domain-nouns.local.txt", ".gitignore"]);
+const NOUNFILE = fs.existsSync("domain-nouns.local.txt") ? "domain-nouns.local.txt" : "domain-nouns.txt";
+const nouns = (fs.existsSync(NOUNFILE) ? fs.readFileSync(NOUNFILE, "utf8") : "")
   .split("\n").map((l) => l.replace(/#.*/, "").trim()).filter(Boolean);
 
 if (!nouns.length) {

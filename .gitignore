@@ -1,3 +1,4 @@
 node_modules/
 .DS_Store
 check-laws.config.json
+domain-nouns.local.txt

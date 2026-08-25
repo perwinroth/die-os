@@ -43,7 +43,7 @@ to that file when you vendor this repo, so the check keeps working as your domai
 
 ## Lineage
 
-Extracted 2026-08-25 from the die-validation repository, where every role, gate, and law below
+Extracted 2026-08-25 from the private project it grew inside, where every role, gate, and law below
 was earned by a live failure. The incidents are preserved in each law's grounding, stripped of
 the domain nouns they happened to occur in. A law with no incident behind it is a preference,
 and preferences do not belong here.

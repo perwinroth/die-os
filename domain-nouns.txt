@@ -1,20 +1,12 @@
 # Domain nouns that must never appear in the OS layer.
 # One per line. Regex-safe words only. '#' starts a comment.
 #
-# Seeded with the nouns of the project this OS was extracted from, so the extraction
-# itself stays verifiable. Add your own project's nouns when you vendor this repo.
-gotcosy
-cosy
-cosiness
-hotel
-hotels
-subfeel
-feellayer
-gothush
-hush
-bruges
-savannah
-marrakech
-steam
-imdb
-goemotions
+# This file ships EMPTY on purpose. Listing your real product names here would put your
+# portfolio in the OS layer, which is the exact thing the check exists to prevent.
+#
+# Put your real nouns in domain-nouns.local.txt (gitignored). The checker prefers that file
+# and falls back to this one. Example of the shape, not real nouns:
+#
+#   acme
+#   widgetworks
+#   northwind
