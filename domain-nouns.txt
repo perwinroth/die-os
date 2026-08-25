@@ -1,0 +1,20 @@
+# Domain nouns that must never appear in the OS layer.
+# One per line. Regex-safe words only. '#' starts a comment.
+#
+# Seeded with the nouns of the project this OS was extracted from, so the extraction
+# itself stays verifiable. Add your own project's nouns when you vendor this repo.
+gotcosy
+cosy
+cosiness
+hotel
+hotels
+subfeel
+feellayer
+gothush
+hush
+bruges
+savannah
+marrakech
+steam
+imdb
+goemotions
